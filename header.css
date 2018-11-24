@@ -1,5 +1,9 @@
 header {
     background-color: #e24647;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
 }
 
 h1 {
@@ -13,4 +17,9 @@ a {
     text-decoration: none;
     font-size: 21px;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    padding: 0 15px;
+}
+
+a:last-child {
+    padding-right: 0; /* para não somar com o padding do header */
 }
