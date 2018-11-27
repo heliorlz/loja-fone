@@ -2,8 +2,9 @@ header {
     background-color: #e24647;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 55px 60px 95px;
     align-items: center;
+    margin: 0 115px;
 }
 
 h1 {
