@@ -1,4 +1,4 @@
-.btn-cart {
+.btn {
     width: 199px;
     height: 60px;
     background-color: #252c41;
@@ -6,4 +6,7 @@
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     border: none;
+    display: inline-block;
+    text-align: center;
+    line-height: 60px;
 }
