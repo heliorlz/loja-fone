@@ -25,6 +25,7 @@ html {
 .action {
     color: inherit;
     margin-right: 60px; /* alterado de acordo com os ensinamentos do mestre Marco */
+    text-decoration: none;
 }
 
 .action:last-child {
