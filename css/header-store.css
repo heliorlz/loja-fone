@@ -6,16 +6,13 @@ html {
 }
 
 .header-store {
-    background-color: #e24647;
     display: flex;
     justify-content: space-between;
-    padding: 55px 60px 95px;
     align-items: center;
-    margin: 0 115px;
+    color: #ffffff;
 }
 
 .title {
-    color: #ffffff;
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -26,8 +23,7 @@ html {
 }
 
 .action {
-    color: #ffffff;
-    text-decoration: none;
+    color: inherit;
     margin-right: 60px; /* alterado de acordo com os ensinamentos do mestre Marco */
 }
 

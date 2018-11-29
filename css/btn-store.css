@@ -1,5 +1,5 @@
-.btn {
-    width: 199px;
+.btn-store {
+    width: 200px;
     height: 60px;
     background-color: #252c41;
     color: #ffffff;
@@ -9,4 +9,12 @@
     display: inline-block;
     text-align: center;
     line-height: 60px;
+}
+
+.btn-store.-second {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    vertical-align: top;
+    line-height: 56px;
 }
