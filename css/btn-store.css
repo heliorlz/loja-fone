@@ -2,7 +2,7 @@
     padding: 20px 69.5px;
     background-color: #252c41;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     border: none;
     display: inline-block;
@@ -14,4 +14,6 @@
     background-color: transparent;
     border: 2px solid #ffffff;
     box-sizing: border-box;
+    margin-right: 40px;
+    cursor: pointer;
 }
