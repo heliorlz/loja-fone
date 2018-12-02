@@ -1,0 +1,41 @@
+.description-product {
+    color: #ffffff;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.description-product > .title {
+    margin-top: 40px;
+    margin-bottom: 100px;
+    font-size: 25px;
+}
+
+.description-product > .item {
+    font-size: 20px;
+    margin-bottom: 30px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description-product > .item > strong {
+    text-transform: uppercase;
+}
+
+.description-product > .text {
+    font-size: 18px;
+    margin-bottom: 40px;
+    margin-top: 70px;
+}
+
+.description-product > .more {
+    margin-bottom: 100px;
+}
+
+.description-product > .more > a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 18px;   
+}
+
+
+
