@@ -15,5 +15,16 @@
     border: 2px solid #ffffff;
     box-sizing: border-box;
     margin-right: 40px;
+    font-weight: normal;
     cursor: pointer; /* aqui ja tinha colocado o cursor pointer */
+}
+
+.btn-store:hover {
+    background-color: #fff;
+    color: #252c41;
+}
+
+.btn-store.-second:hover {
+    background-color: #fff;
+    color: #e24647;
 }
