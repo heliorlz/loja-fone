@@ -1,11 +1,13 @@
 .wrapper-foneimage {
+    padding-top: 20px;
     margin-top: 150px;
     width: 50%;
     height: 540px;
     float: left;
     background-color: #fff;
     background-image: url(../img/foneImage.png);
-    background-size: cover;
+    background-position: center;
+    background-size: 100% 90%;
     background-repeat: no-repeat;
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
