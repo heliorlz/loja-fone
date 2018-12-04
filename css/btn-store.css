@@ -15,5 +15,5 @@
     border: 2px solid #ffffff;
     box-sizing: border-box;
     margin-right: 40px;
-    cursor: pointer;
+    cursor: pointer; /* aqui ja tinha colocado o cursor pointer */
 }
