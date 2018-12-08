@@ -33,13 +33,32 @@
     color: inherit;
     margin-right: 60px; /* alterado de acordo com os ensinamentos do mestre Marco */
     text-decoration: none;
+    padding-bottom: 8px;
+    position: relative; /* parte do border interativo */
 }
 
 .header-store .action:last-child {
     margin-right: 0; /* para não somar com o padding do header */
 }
 
-.header-store .action:hover {
-    padding-bottom: 8px;
+
+/* BORDER INTERATIVO */
+.header-store .action::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    display: block;
+    /* padding-bottom: 8px; */
+    right: 0;
+    border-bottom: 1px solid #ffffff;
+    transition: width .3s ease;
+    -webkit-transition: width .3s ease; 
+}
+
+.header-store .action:hover::after {
+    width: 100%;
+    left: 0;
     border-bottom: 1px solid #ffffff;
 }
+/* FIM BORDER INTERATIVO */
+
