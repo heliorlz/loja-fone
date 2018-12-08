@@ -38,3 +38,8 @@
 .header-store .action:last-child {
     margin-right: 0; /* para não somar com o padding do header */
 }
+
+.header-store .action:hover {
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ffffff;
+}
