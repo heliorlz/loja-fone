@@ -10,7 +10,15 @@
     font-size: 25px;
 }
 
-.description-product .heart {
+.description-product > .item {
+    font-size: 20px;
+    margin-bottom: 28px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description-product > .item.-heart {
     position: absolute;
     /* transform: translateX(-100%); */
     left: -87px;
@@ -18,29 +26,17 @@
     cursor: pointer;
 }
 
-.description-product .heart:hover {
-    transform: scale(1.2);
-}
-
-.description-product > .rate {
-    margin-bottom: 25px;
-}
-
-.description-product > .rate > .star {
-    margin-right: 5px;
+.description-product > .item.-star {
     cursor: pointer;
+    width: 180px;
 }
 
-.description-product .star:hover {
+.description-product .icon {
+    transition: transform 100ms linear; /* tanto na ida quanto na volta */
+}
+
+.description-product .icon:hover {
     transform: scale(1.2);
-}
-
-.description-product > .item {
-    font-size: 20px;
-    margin-bottom: 30px;
-    width: 200px;
-    display: flex;
-    justify-content: space-between;
 }
 
 .description-product .item:nth-child(4) { /* margin-left no terceiro elemento do pai */
