@@ -41,14 +41,29 @@
     margin-right: 0; /* para não somar com o padding do header */
 }
 
+.header-store .action:after {
+    content: '';
+    height: 1px;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: scale(0);
+    transition: transform 200ms linear;
+    transform-origin: center left;
+}
 
-/* BORDER INTERATIVO */
-.header-store .action::after {
+.header-store .action:hover:after {
+    transform: scale(1);
+}
+
+/* BORDER INTERATIVO FEITO PESQUISANDO STACKOVERFLOW 
+.header-store .action::after { 
     content: '';
     position: absolute;
     width: 0;
     display: block;
-    /* padding-bottom: 8px; */
     right: 0;
     border-bottom: 1px solid #ffffff;
     transition: width .3s ease;
@@ -60,5 +75,5 @@
     left: 0;
     border-bottom: 1px solid #ffffff;
 }
-/* FIM BORDER INTERATIVO */
+FIM BORDER INTERATIVO */
 
