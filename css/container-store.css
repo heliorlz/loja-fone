@@ -1,11 +1,32 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
 
 .container-store {
+    box-sizing: border-box;
     background-color: #e24647;
-    margin: 80px;
     padding: 55px 60px 65px;
+    width: 90%;
+    max-width: 1330px;
+}
+
+
+
+
+
+
+
+@media (max-width: 1180px) {
+    .container-store {
+        width: 100%;
+    }
+}
+
+@media (max-width: 955px) {
+    .container-store {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 }

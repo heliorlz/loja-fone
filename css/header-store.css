@@ -77,3 +77,56 @@
 }
 FIM BORDER INTERATIVO */
 
+
+
+
+
+
+
+
+
+@media (max-width: 1110px) {
+    .header-store {
+        flex-direction: column;
+    }
+
+    .header-store > .title {
+        margin-bottom: 70px;
+    }
+}
+
+@media (max-width: 955px) {
+    .header-store > .navigation {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .header-store .search {
+        display: none;
+    }
+}
+
+@media (max-width: 530px) {
+    .header-store > .title {
+        margin-bottom: 60px;
+    }
+    
+    .header-store .action {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 470px) {
+    .header-store .action {
+        margin-right: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    .header-store > .navigation {
+        display: none;
+    }
+}
