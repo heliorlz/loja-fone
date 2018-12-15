@@ -2,3 +2,27 @@
 .wrapper-btn {
     display: flex;
 }
+
+
+
+
+
+
+@media (max-width: 1300px) {
+    .wrapper-btn {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 950px) {
+    .wrapper-btn {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .wrapper-btn {
+        flex-direction: column;
+    }
+}

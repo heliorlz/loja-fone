@@ -1,13 +1,18 @@
+html {
+    font-size: 100%; 
+}
+
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 1rem;
 }
 
 .container-store {
     box-sizing: border-box;
     background-color: #e24647;
-    padding: 55px 60px 65px;
+    padding: 5% 6% 6.5%;
     width: 90%;
     max-width: 1330px;
 }
@@ -16,17 +21,16 @@ body {
 
 
 
-
-
-@media (max-width: 1180px) {
+@media (max-width: 1330px) {
     .container-store {
         width: 100%;
     }
+
 }
 
-@media (max-width: 955px) {
-    .container-store {
-        padding-left: 30px;
-        padding-right: 30px;
-    }
+@media (max-width: 950px) {
+    
 }
+
+
+

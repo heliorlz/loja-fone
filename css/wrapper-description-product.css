@@ -1,5 +1,37 @@
 .wrapper-description-product {
-    margin-top: 150px;
-    width: 40%;
+    margin-top: 18%;
+    width: 45%;
     float: right;
 }
+
+
+
+
+
+
+@media (max-width: 950px) {
+    .wrapper-description-product {
+        display: block;
+        margin: 0 auto;
+        float: none;
+        position: static;
+        width: 60%;
+    }
+}
+
+@media (max-width: 840px) {
+    .wrapper-description-product {
+        width: 80%;
+    }
+}
+
+@media (max-width: 840px) {
+    .wrapper-description-product {
+        width: 100%;
+    }
+}
+
+
+
+
+
