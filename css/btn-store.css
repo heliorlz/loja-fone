@@ -65,6 +65,7 @@
         margin-right: 0;
         margin-bottom: 4%;
         width: 50%;
+    }
 }
 
 @media (max-width: 340px) {
@@ -74,4 +75,5 @@
 
     .btn-store.-second {
         width: 70%;
+    }
 }
