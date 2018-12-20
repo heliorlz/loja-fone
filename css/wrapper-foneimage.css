@@ -24,6 +24,7 @@
         height: 400px;
         border-radius: 0;
         padding-left: 10px;
+        margin-top: 10%; 
     }
 
     .wrapper-foneimage > img {
