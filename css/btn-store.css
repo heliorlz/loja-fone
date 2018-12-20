@@ -45,11 +45,13 @@
 
 @media (max-width: 950px) {
     .btn-store {
-        width: 40%;
+        width: 50%;
+        max-width: 300px;
     }
 
     .btn-store.-second {
-        width: 40%;
+        width: 50%;
+        max-width: 300px;
         margin-right: 6%;
         margin-bottom: 0;
     }
@@ -58,22 +60,15 @@
 @media (max-width: 480px) {
     .btn-store {
         font-size: 1rem;
-        width: 50%;
+        width: 80%;
+        max-width: 200px;
     }
 
     .btn-store.-second {
         margin-right: 0;
         margin-bottom: 4%;
-        width: 50%;
+        width: 80%;
+        max-width: 200px;
     }
 }
 
-@media (max-width: 340px) {
-    .btn-store {
-        width: 70%;
-    }
-
-    .btn-store.-second {
-        width: 70%;
-    }
-}

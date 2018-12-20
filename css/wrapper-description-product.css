@@ -15,21 +15,11 @@
         margin: 0 auto;
         float: none;
         position: static;
-        width: 60%;
-    }
-}
-
-@media (max-width: 840px) {
-    .wrapper-description-product {
-        width: 80%;
-    }
-}
-
-@media (max-width: 840px) {
-    .wrapper-description-product {
         width: 100%;
+        max-width: 550px;
     }
 }
+
 
 
 
