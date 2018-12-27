@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     color: #ffffff;
+    padding-left: 6%;
 }
 
 .header-store > .title {
@@ -22,6 +23,10 @@
     padding: 6px;
     width: 250px;
     margin-right: 65px;
+}
+
+.header-store .search::placeholder {
+    color: inherit;
 }
 
 .header-store > .navigation {
@@ -95,7 +100,11 @@ FIM BORDER INTERATIVO */
     }
 }
 
-@media (max-width: 955px) {
+@media (max-width: 950px) {
+    .header-store {
+        padding-right: 6%;
+    }
+    
     .header-store > .navigation {
         width: 100%;
         display: flex;
