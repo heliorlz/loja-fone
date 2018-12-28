@@ -14,7 +14,7 @@
     }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 950px), (min-height: 1070px) {
     .wrapper-btn {
         flex-direction: row;
         justify-content: center;

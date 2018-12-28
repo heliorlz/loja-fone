@@ -1,7 +1,7 @@
 .wrapper-foneimage {
     padding-top: 10px;
     margin-top: 15%;
-    width: 45%;
+    width: 42%;
     float: left;
     background-color: #fff;
     border-top-right-radius: 150px;
@@ -16,7 +16,7 @@
 
 
 
-@media (max-width: 950px) {
+@media (max-width: 950px), (min-height: 1070px) {
     .wrapper-foneimage {
         float: none;
         width: 100%;

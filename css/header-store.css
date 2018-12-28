@@ -100,7 +100,7 @@ FIM BORDER INTERATIVO */
     }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 950px), (min-height: 1070px) {
     .header-store {
         padding-right: 6%;
     }

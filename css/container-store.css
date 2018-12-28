@@ -4,7 +4,8 @@
     padding: 5% 6% 6.5% 0;
     width: 90%;
     max-width: 1330px;
-    height: inherit;
+    margin: 0 auto;
+    height: 100%;
 }
 
 
@@ -18,7 +19,7 @@
 
 }
 
-@media (max-width: 950px) {
+@media (max-width: 950px), (min-height: 1070px) {
     .container-store {
         padding-right: 0;
     }

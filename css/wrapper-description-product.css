@@ -9,7 +9,7 @@
 
 
 
-@media (max-width: 950px) {
+@media (max-width: 950px), (min-height: 1070px) {
     .wrapper-description-product {
         display: block;
         margin: 0 auto;

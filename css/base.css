@@ -1,17 +1,20 @@
+html {
+    font-size: 100%;
+}
 
 /* html,
 body {
     height: 100%;
 } */
 
-html {
-    font-size: 100%;
-}
-
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     font-size: 1rem;
     background-image: linear-gradient(to bottom, #252a34, #ff2e63);
+    background-attachment: fixed;
 }
+
+
