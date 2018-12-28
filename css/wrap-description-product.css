@@ -1,4 +1,4 @@
-.wrapper-description-product {
+.wrap-description-product {
     margin-top: 18%;
     width: 45%;
     float: right;
@@ -9,8 +9,8 @@
 
 
 
-@media (max-width: 950px), (min-height: 1070px) {
-    .wrapper-description-product {
+@media (max-width: 950px), (orientation: portrait) {
+    .wrap-description-product {
         display: block;
         margin: 0 auto;
         float: none;

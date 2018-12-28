@@ -1,4 +1,4 @@
-.wrapper-foneimage {
+.wrap-foneimage {
     padding-top: 10px;
     margin-top: 15%;
     width: 42%;
@@ -8,7 +8,7 @@
     border-bottom-right-radius: 150px;
 }
 
-.wrapper-foneimage > img {
+.wrap-foneimage > img {
     width: 100%;
     height: 100%;
 }
@@ -16,8 +16,8 @@
 
 
 
-@media (max-width: 950px), (min-height: 1070px) {
-    .wrapper-foneimage {
+@media (max-width: 950px), (orientation: portrait) {
+    .wrap-foneimage {
         float: none;
         width: 100%;
         height: 400px;
@@ -25,7 +25,7 @@
         margin-top: 10%; 
     }
 
-    .wrapper-foneimage > img {
+    .wrap-foneimage > img {
         display: block;
         width: 500px;
         height: 400px;
@@ -34,22 +34,22 @@
 }
 
 @media (max-width: 480px) {
-    .wrapper-foneimage {
+    .wrap-foneimage {
         height: 300px;
     }
 
-    .wrapper-foneimage > img {
+    .wrap-foneimage > img {
         width: 350px;
         height: 300px;
     }
 }
 
 @media (max-width: 350px) {
-    .wrapper-foneimage {
+    .wrap-foneimage {
         height: 250px;
     }
 
-    .wrapper-foneimage > img {
+    .wrap-foneimage > img {
         width: 300px;
         height: 250px;
     }

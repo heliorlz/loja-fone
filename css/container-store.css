@@ -19,7 +19,7 @@
 
 }
 
-@media (max-width: 950px), (min-height: 1070px) {
+@media (max-width: 950px), (orientation: portrait) {
     .container-store {
         padding-right: 0;
     }
