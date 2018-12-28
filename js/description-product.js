@@ -7,10 +7,10 @@ function handleClickHeart() {
 };
 
 const $addCart = window.document.querySelector('.-second');
+const $cart = window.document.querySelector('.action:last-child');
 
 $addCart.addEventListener('click', handleClickAddCart);
 
 function handleClickAddCart() {
-    console.log('Ae second massa');
-    ;
+    $cart.textContent = 'Biruleibe';
 }
