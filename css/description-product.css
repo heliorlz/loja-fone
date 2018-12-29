@@ -24,6 +24,13 @@
     left: -87px;
     top: 8px;
     cursor: pointer;
+    width: 40px;
+    height: 30px;
+    background: url(../img/heart.png) no-repeat center;
+}
+ 
+.description-product > .item.-active {
+    background: url(../img/fullheart.png) no-repeat center;
 }
 
 .description-product > .item.-star {

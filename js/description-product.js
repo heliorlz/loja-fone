@@ -1,16 +1,8 @@
-const $heart = window.document.querySelector('.-heart');
+const $heart = document.querySelector('.-heart');
 
-$heart.addEventListener('click', handleClickHeart);
+$heart.addEventListener('click', handleClick);
 
-function handleClickHeart() {
-    console.log('Ae');
+function handleClick() {
+    $heart.classList.toggle('-active');
 };
 
-const $addCart = window.document.querySelector('.-second');
-const $cart = window.document.querySelector('.action:last-child');
-
-$addCart.addEventListener('click', handleClickAddCart);
-
-function handleClickAddCart() {
-    $cart.textContent = 'Biruleibe';
-}
