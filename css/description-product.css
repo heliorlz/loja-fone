@@ -38,6 +38,25 @@
     width: 170px;
 }
 
+.description-product > .item.-star .state {
+    width: 30px;
+    height: 30px;
+    margin-left: -3px;
+    background: url(../img/estrelaVazia.png) no-repeat center;
+}
+
+.description-product > .item.-star .state.-active {
+    background: url(../img/estrelaCheia.png) no-repeat center;
+}
+
+.description-product > .item.-star .state {
+    transition: transform 100ms linear; /* tanto na ida quanto na volta */
+}
+
+.description-product > .item.-star .state:hover {
+    transform: scale(1.2);
+}
+
 .description-product .icon {
     transition: transform 100ms linear; /* tanto na ida quanto na volta */
 }
