@@ -24,13 +24,12 @@
     left: -87px;
     top: 8px;
     cursor: pointer;
-    width: 40px;
-    height: 30px;
-    background: url(../img/heart.png) no-repeat center;
+    width: 33px;
+    height: 29px;
 }
  
 .description-product > .item.-active {
-    background: url(../img/fullheart.png) no-repeat center;
+    background-color: #252c41;
 }
 
 .description-product > .item.-star {
@@ -38,23 +37,17 @@
     width: 170px;
 }
 
-.description-product > .item.-star .state {
-    width: 30px;
-    height: 30px;
-    margin-left: -3px;
-    background: url(../img/estrelaVazia.png) no-repeat center;
+.description-product .star {
+    display: inline-block;
+    margin-right: 5px;
 }
 
-.description-product > .item.-star .state.-active {
-    background: url(../img/estrelaCheia.png) no-repeat center;
+.description-product .star.-active > .icon {
+    display: none;
 }
 
-.description-product > .item.-star .state {
-    transition: transform 100ms linear; /* tanto na ida quanto na volta */
-}
-
-.description-product > .item.-star .state:hover {
-    transform: scale(1.2);
+.description-product .star.-active > .-active {
+    display: block;
 }
 
 .description-product .icon {
@@ -63,6 +56,18 @@
 
 .description-product .icon:hover {
     transform: scale(1.2);
+}
+
+.description-product .icon.-active {
+    display: none;
+}
+
+.description-product > .item.-active .icon {
+    display: none;
+}
+
+.description-product > .item.-active .icon.-active {
+    display: block;
 }
 
 .description-product .item:nth-child(4) { /* margin-left no terceiro elemento do pai */

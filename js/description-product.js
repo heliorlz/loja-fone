@@ -1,31 +1,16 @@
 const $heart = document.querySelector('.-heart');
-const $stars = document.querySelectorAll('.state');
+const $stars = document.querySelectorAll('.star'); // pegar todos os elementos com classe .star
 
-$heart.addEventListener('click', handleClickHeart);
+$heart.addEventListener('click', handleClick); // refatorando e reaproveitando a function handleClick
 
+$stars.forEach(function($star) { //função anônima (retorna uma variável)
+    $star.addEventListener('click', handleClick);
+});  //percorrer cada item da lista
 
-function handleClickHeart() {
-    $heart.classList.toggle('-active');
+function handleClick(){
+    this.classList.toggle('-active'); // aponta exatamente para a estrela clicada, e também no coração
 };
 
-$stars[0].addEventListener('click', function() {
-    this.classList.toggle('-active');
-});
 
-$stars[1].addEventListener('click', function() {
-    this.classList.toggle('-active');
-});
-
-$stars[2].addEventListener('click', function() {
-    this.classList.toggle('-active');
-});
-
-$stars[3].addEventListener('click', function() {
-    this.classList.toggle('-active');
-});
-
-$stars[4].addEventListener('click', function() {
-    this.classList.toggle('-active');
-});
 
 
