@@ -27,10 +27,6 @@
     width: 33px;
     height: 29px;
 }
- 
-.description-product > .item.-active {
-    background-color: #252c41;
-}
 
 .description-product > .item.-star {
     cursor: pointer;
@@ -116,7 +112,7 @@
     }
     
     .description-product > .item.-heart {
-        position: static;
+        position: static; /* desafio da aula 016 já estava feito */
     }
 }
 
