@@ -13,6 +13,22 @@
     cursor: pointer;
 }
 
+.header-store .wrap-search {
+    padding: 6px;
+    width: 250px;
+    display: flex;
+}
+
+.header-store .wrap-search > .icon {
+    width: 26px;
+    height: 26px;
+    display: none;
+}
+
+.header-store .wrap-search > h1 {
+    display: none;
+}
+
 .header-store .search {
     background-color: transparent;
     border: none;
@@ -20,9 +36,7 @@
     font-size: 20px;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     color: inherit;
-    padding: 6px;
-    width: 250px;
-    margin-right: 65px;
+    width: 100%;
 }
 
 .header-store .search::placeholder {
@@ -111,7 +125,37 @@ FIM BORDER INTERATIVO */
         justify-content: space-around;
     }
     
-    .header-store .search {
+    .header-store .wrap-search {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #fff;
+        transform: translateX(-90%);
+        color: #000;
+        width: 40%;
+
+        transition: transform 200ms linear; /* propriedade terá sua execução com -active nessas condições */
+
+        /* linear: altera a propriedade proporcionalmente
+        ** ferramenta do dev tools (raio), propriedade no css do inspetor para fazer testes
+        ** curva de bezier
+        */
+    }
+
+    .header-store .wrap-search.-active {
+        transition: transform 200ms cubic-bezier(0, 0, 0.96, 1.26); /* efeito da curva de bezier somente na ida */
+        transform: translateX(0);    
+    }
+
+    .header-store .wrap-search > .icon {
+        display: block;
+    }
+
+    .header-store .wrap-search > .icon.-hidden {
+        display: none;
+    }
+
+    .header-store .wrap-search > h1 {
         display: none;
     }
 }

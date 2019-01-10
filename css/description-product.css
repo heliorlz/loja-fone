@@ -112,12 +112,18 @@
     }
     
     .description-product > .item.-heart {
-        position: static; /* desafio da aula 016 já estava feito */
+        /* position: static; desafio da aula 016 já estava feito */
+        left: auto;
+        top: 5px;
     }
 }
 
 @media (max-width: 480px) {
     .description-product > .title {
         font-size: 2rem;
+    }
+
+    .description-product > .item.-heart {
+        position: static;
     }
 }

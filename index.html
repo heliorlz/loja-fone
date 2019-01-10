@@ -25,8 +25,13 @@
       <header class="header-store">
         <h1 class="title">Logo</h1>
 
-        <nav class="navigation">
+        <div class="wrap-search">
           <input class="search" type="search" placeholder="Busca">
+          <img class="icon magnifying -action" src="img/searchicon.png" alt="search button"> 
+          <img class="icon close -hidden -action" src="img/closeicon.png" alt="close button">
+        </div>
+        <nav class="navigation">
+          
           <a class="action" href="#">Produtos</a>
           <a class="action" href="#">Serviços</a>
           <a class="action" href="#">Carrinho (0)</a>
@@ -91,10 +96,10 @@
         </dl>
       </section>
         
-      <!-- desafios
-      basico: fonte, cor, link azul, seletor tag, seletor class, espacamento
-      intermediario: posicionar botoes um ao lado do outro
-      avançado: imagem do fone e o dt à direita, posicionar
+      <!-- desafios 017
+      basico: colocar icone da busca (icon finder) ok
+      intermediario: click da interação do search pegar somente pela icone ok
+      avançado: com o input search aberto, icone de lupa mudar para x para fechar, e vice e versa ok
       -->
       
       
@@ -102,7 +107,7 @@
 
 
 
-
+    <script src="js/header-store.js"></script>
     <script src="js/description-product.js"></script>
     <script src="js/home.js"></script>
   </body>
