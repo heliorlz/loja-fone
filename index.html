@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet"> 
+
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/container-store.css" />
@@ -16,7 +19,7 @@
     <link rel="stylesheet" href="css/btn-store.css" />
     
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet"> 
+    
 
     <title>Loja de Fone</title>
   </head>
@@ -25,16 +28,24 @@
       <header class="header-store">
         <h1 class="title">Logo</h1>
 
-        <div class="wrap-search">
-          <input class="search" type="search" placeholder="Busca">
-          <img class="icon magnifying -action" src="img/iconfinder_Rounded-10_2024633.png" alt="search button"> 
-          <img class="icon close -hidden -action" src="img/closeicon.png" alt="close button">
-        </div>
         <nav class="navigation">
-          
-          <a class="action" href="#">Produtos</a>
-          <a class="action" href="#">Serviços</a>
-          <a class="action" href="#">Carrinho (0)</a>
+          <form class="wrap-search"> <!-- semanticamente utiizar o form (Marco criou um arquivo separadamente--> 
+            <input class="search" type="search" placeholder="Busca">
+            <input class="icon magnifying" type="image" src="img/iconfinder_Rounded-10_2024633.png" alt="search button"> <!-- Marco utilizou imagem svg, pois ela estica sem perder qualidade -->
+            <!-- <img class="icon magnifying" src="img/iconfinder_Rounded-10_2024633.png" alt="search button">  -->
+            <input class="icon close -hidden" type="image" src="img/closeicon.png" alt="close button">
+            <!-- <img class="icon close -hidden" src="img/closeicon.png" alt="close button"> -->
+          </form>
+        
+          <div class="navbar -hidden">    
+            <a class="action" href="#">Produtos</a>
+            <a class="action" href="#">Serviços</a>
+            <a class="action" href="#">Carrinho (0)</a>
+          </div>
+
+          <div class="toggle">    
+            <i class="fas fa-bars"></i>
+          </div>
         </nav>
       </header>
 
@@ -96,10 +107,8 @@
         </dl>
       </section>
         
-      <!-- desafios 017
-      basico: colocar icone da busca (icon finder) ok
-      intermediario: click da interação do search pegar somente pela icone ok
-      avançado: com o input search aberto, icone de lupa mudar para x para fechar, e vice e versa ok
+      <!-- desafios 018 
+        Unico: Em 335px de width, colocar menu hamburguer lado esquerdo, avançado colocar na direita
       -->
       
       
