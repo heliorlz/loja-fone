@@ -14,7 +14,7 @@
 }
 
 .header-store .wrap-search {
-    padding: 6px;
+    padding: 4px;
     width: 350px;
     display: flex;
     justify-content: space-between;
@@ -22,9 +22,9 @@
 }
 
 .header-store .wrap-search > .icon {
-    margin-top: 4px;
-    width: 26px;
-    height: 26px;
+    margin-top: 2px;
+    width: 30px;
+    height: 30px;
     display: none;
     cursor: pointer;
 }
